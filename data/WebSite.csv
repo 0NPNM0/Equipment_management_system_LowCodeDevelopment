@@ -1,0 +1,4 @@
+"{""ObjectName"":""WebSite"",""Version"":""1.0"",""TimeZone"":""GMT"",""Pattern"":""""}"
+id,name,siteID,extTenantID,homePage,parentID,createdBy,createdDate,lastModifiedBy,lastModifiedDate,systemModifiedDate,deletedDate,isDeleted,owner,installedPackage,custom,protectMode,visibility,belongTo
+string,string,numeric,numeric,string,string,string,date,string,date,date,date,bool,string,string,bool,numeric,numeric,string
+001S0000015234xiUdQe,NPNM__equipment_fix_management_000000000150QfFvxujY,60574,1,/magno/render/000000000150QfFvxujY/NPNM__equipment_fix_management,NULL,10gd00000150QfGpNugy,2023-07-19 00:52:05,10gd00000150QfGpNugy,2023-07-27 09:39:35,NULL,NULL,false,10gd00000150QfGpNugy,NULL,true,1,0,NULL

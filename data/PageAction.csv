@@ -1,0 +1,5 @@
+"{""ObjectName"":""PageAction"",""Version"":""1.0"",""TimeZone"":""GMT"",""Pattern"":""""}"
+id,name,description,url,version,parent,pageNo,createdBy,createdDate,lastModifiedBy,lastModifiedDate,systemModifiedDate,deletedDate,isDeleted,owner,installedPackage,custom,protectMode,visibility,belongTo
+string,string,clob,string,string,string,string,string,date,string,date,date,date,bool,string,string,bool,numeric,numeric,string
+001T000001546pYnMykC,monitor,,/magno/render/000000000150QfFvxujY/NPNM__equipment_fix_management/monitor,202307271739,001S0000015234xiUdQe,2,10gd00000150QfGpNugy,2023-07-20 06:39:48,10gd00000150QfGpNugy,2023-07-27 09:39:35,NULL,NULL,false,10gd00000150QfGpNugy,NULL,true,0,0,NULL
+001T0000015EZUuCTmcq,login,,/magno/render/000000000150QfFvxujY/NPNM__equipment_fix_management/login,202307271739,001S0000015234xiUdQe,2,10gd00000150QfGpNugy,2023-07-26 13:57:00,10gd00000150QfGpNugy,2023-07-27 09:39:35,NULL,NULL,false,10gd00000150QfGpNugy,NULL,true,0,0,NULL

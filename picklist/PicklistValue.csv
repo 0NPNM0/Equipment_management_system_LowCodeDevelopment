@@ -1,0 +1,7 @@
+"{""ObjectName"":""PicklistValue"",""Version"":""1.0"",""TimeZone"":""GMT"",""Pattern"":""""}"
+id,name,picklistId,isDefault,isActive,color,controlFieldValue,description,sequenceNo,label,weight,createdBy,createdDate,lastModifiedBy,lastModifiedDate,systemModifiedDate,deletedDate,isDeleted,owner,installedPackage,custom,protectMode,visibility,belongTo
+string,string,string,bool,bool,string,string,string,numeric,string,numeric,string,date,string,date,date,date,bool,string,string,bool,numeric,numeric,string
+0005000001528yUV1ekK,三菱,0004000001528yUUArM8,false,true,NULL,NULL,NULL,0,三菱,0,10gd00000150QfGpNugy,2023-07-19 02:14:35,10gd00000150QfGpNugy,2023-07-19 02:14:35,NULL,NULL,false,10gd00000150QfGpNugy,NULL,true,0,0,NULL
+0005000001528yUV1ekL,日立,0004000001528yUUArM8,false,true,NULL,NULL,NULL,1,日立,0,10gd00000150QfGpNugy,2023-07-19 02:14:35,10gd00000150QfGpNugy,2023-07-19 02:14:35,NULL,NULL,false,10gd00000150QfGpNugy,NULL,true,0,0,NULL
+0005000001528yUV1ekM,迅达,0004000001528yUUArM8,false,true,NULL,NULL,NULL,2,迅达,0,10gd00000150QfGpNugy,2023-07-19 02:14:35,10gd00000150QfGpNugy,2023-07-19 02:14:35,NULL,NULL,false,10gd00000150QfGpNugy,NULL,true,0,0,NULL
+0005000001528yUV1ekN,沃克斯,0004000001528yUUArM8,false,true,NULL,NULL,NULL,3,沃克斯,0,10gd00000150QfGpNugy,2023-07-19 02:14:35,10gd00000150QfGpNugy,2023-07-19 02:14:35,NULL,NULL,false,10gd00000150QfGpNugy,NULL,true,0,0,NULL

@@ -1,0 +1,516 @@
+swagger: "2.0"
+info:
+    description: OPEN API Swagger - 2.0
+    version: 1.0.0
+    title: Custom API Document
+schemes:
+    - http
+consumes:
+    - application/json
+produces:
+    - application/json
+paths:
+    /service/NPNM__equipment_fix_management/1.0.1/createWorkOrder:
+        post:
+            tags:
+                - NPNM__createWorkOrder
+            operationId: createWorkOrder
+            parameters:
+                - name: createWorkOrder_Body
+                  in: body
+                  required: true
+                  schema:
+                    $ref: '#/definitions/createWorkOrder_Body'
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/createWorkOrder_Response'
+                400:
+                    description: 错误请求
+    /service/NPNM__equipment_fix_management/1.0.1/deleteEquipment:
+        delete:
+            tags:
+                - NPNM__deleteEquipment
+            operationId: deleteEquipment
+            parameters:
+                - name: deleteEquipment_Body
+                  in: body
+                  required: true
+                  schema:
+                    $ref: '#/definitions/deleteEquipment_Body'
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/deleteEquipment_Response'
+                400:
+                    description: 错误请求
+    /service/NPNM__equipment_fix_management/1.0.1/deleteWorkOrder:
+        delete:
+            tags:
+                - NPNM__deleteWorkOrder
+            operationId: deleteWorkOrder
+            parameters:
+                - name: deleteWorkOrder_Body
+                  in: body
+                  required: true
+                  schema:
+                    $ref: '#/definitions/deleteWorkOrder_Body'
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/deleteWorkOrder_Response'
+                400:
+                    description: 错误请求
+    /service/NPNM__equipment_fix_management/1.0.1/dispatchWorkOrder:
+        post:
+            tags:
+                - NPNM__dispatchWorkOrder
+            operationId: dispatchWorkOrder
+            parameters:
+                - name: dispatchWorkOrder_Body
+                  in: body
+                  required: true
+                  schema:
+                    $ref: '#/definitions/dispatchWorkOrder_Body'
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/dispatchWorkOrder_Response'
+                400:
+                    description: 错误请求
+    /service/NPNM__equipment_fix_management/1.0.1/editEquipment:
+        post:
+            tags:
+                - NPNM__editEquipment
+            operationId: editEquipment
+            parameters:
+                - name: editEquipment_Body
+                  in: body
+                  required: true
+                  schema:
+                    $ref: '#/definitions/editEquipment_Body'
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/editEquipment_Response'
+                400:
+                    description: 错误请求
+    /service/NPNM__equipment_fix_management/1.0.1/equipmentSelectListQuery:
+        get:
+            tags:
+                - NPNM__equipmentSelectListQuery
+            operationId: equipmentSelectListQuery
+            parameters:
+                - name: id
+                  in: query
+                  type: string
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/equipmentSelectListQuery_Response'
+                400:
+                    description: 错误请求
+    /service/NPNM__equipment_fix_management/1.0.1/judgeNextStatus:
+        post:
+            tags:
+                - NPNM__judgeNextStatus
+            operationId: judgeNextStatus
+            parameters:
+                - name: judgeNextStatus_Body
+                  in: body
+                  required: true
+                  schema:
+                    $ref: '#/definitions/judgeNextStatus_Body'
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/judgeNextStatus_Response'
+                400:
+                    description: 错误请求
+    /service/NPNM__equipment_fix_management/1.0.1/login:
+        post:
+            tags:
+                - NPNM__login
+            operationId: login
+            parameters:
+                - name: login_Body
+                  in: body
+                  required: true
+                  schema:
+                    $ref: '#/definitions/login_Body'
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/login_Response'
+                400:
+                    description: 错误请求
+    /service/NPNM__equipment_fix_management/1.0.1/modifyOrderStatus:
+        post:
+            tags:
+                - NPNM__modifyOrderStatus
+            operationId: modifyOrderStatus
+            parameters:
+                - name: modifyOrderStatus_Body
+                  in: body
+                  required: true
+                  schema:
+                    $ref: '#/definitions/modifyOrderStatus_Body'
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/modifyOrderStatus_Response'
+                400:
+                    description: 错误请求
+    /service/NPNM__equipment_fix_management/1.0.1/queryEquipmentDetail:
+        get:
+            tags:
+                - NPNM__queryEquipmentDetail
+            operationId: queryEquipmentDetail
+            parameters:
+                - name: equipmentId
+                  in: query
+                  required: true
+                  type: string
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/queryEquipmentDetail_Response'
+                400:
+                    description: 错误请求
+    /service/NPNM__equipment_fix_management/1.0.1/queryEquipments:
+        post:
+            tags:
+                - NPNM__queryEquipments
+            operationId: queryEquipments
+            parameters:
+                - name: queryEquipments_Body
+                  in: body
+                  required: true
+                  schema:
+                    $ref: '#/definitions/queryEquipments_Body'
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/queryEquipments_Response'
+                400:
+                    description: 错误请求
+    /service/NPNM__equipment_fix_management/1.0.1/queryWorkOrder:
+        post:
+            tags:
+                - NPNM__queryWorkOrder
+            operationId: queryWorkOrder
+            parameters:
+                - name: queryWorkOrder_Body
+                  in: body
+                  required: true
+                  schema:
+                    $ref: '#/definitions/queryWorkOrder_Body'
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/queryWorkOrder_Response'
+                400:
+                    description: 错误请求
+    /service/NPNM__equipment_fix_management/1.0.1/queryWorker:
+        get:
+            tags:
+                - NPNM__queryWorker
+            operationId: queryWorker
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/queryWorker_Response'
+                400:
+                    description: 错误请求
+    /service/NPNM__equipment_fix_management/1.0.1/registerPortalUser:
+        post:
+            tags:
+                - NPNM__registerPortalUser
+            operationId: registerPortalUser
+            parameters:
+                - name: registerPortalUser_Body
+                  in: body
+                  required: true
+                  schema:
+                    $ref: '#/definitions/registerPortalUser_Body'
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/registerPortalUser_Response'
+                400:
+                    description: 错误请求
+definitions:
+    createWorkOrder_Body:
+        description: definition for body parameters in createWorkOrder
+        required:
+            - workOrderData
+        type: object
+        properties:
+            workOrderData:
+                type: object
+                additionalProperties:
+                    type: object
+    createWorkOrder_Response:
+        description: definition for responses in createWorkOrder
+        type: object
+        properties:
+            id:
+                type: string
+    deleteEquipment_Body:
+        description: definition for body parameters in deleteEquipment
+        required:
+            - id
+        type: object
+        properties:
+            id:
+                type: string
+    deleteEquipment_Response:
+        description: definition for responses in deleteEquipment
+        type: object
+        properties:
+            id:
+                type: string
+    deleteWorkOrder_Body:
+        description: definition for body parameters in deleteWorkOrder
+        required:
+            - id
+        type: object
+        properties:
+            id:
+                type: string
+    deleteWorkOrder_Response:
+        description: definition for responses in deleteWorkOrder
+        type: object
+        properties:
+            id:
+                type: string
+    dispatchWorkOrder_Body:
+        description: definition for body parameters in dispatchWorkOrder
+        required:
+            - transInfo
+        type: object
+        properties:
+            transInfo:
+                type: object
+                additionalProperties:
+                    type: object
+    dispatchWorkOrder_Response:
+        description: definition for responses in dispatchWorkOrder
+        type: object
+        properties:
+            assignedFme:
+                type: string
+            id:
+                type: string
+    editEquipment_Body:
+        description: definition for body parameters in editEquipment
+        required:
+            - equipment
+        type: object
+        properties:
+            equipment:
+                type: object
+                additionalProperties:
+                    type: object
+    editEquipment_Response:
+        description: definition for responses in editEquipment
+        type: object
+        properties:
+            equipmentId:
+                type: string
+    equipmentSelectListQuery_Response:
+        description: definition for responses in equipmentSelectListQuery
+        type: object
+        properties:
+            equipList:
+                type: array
+                items:
+                    type: object
+                    additionalProperties:
+                        type: object
+            equipment:
+                type: object
+                additionalProperties:
+                    type: object
+    judgeNextStatus_Body:
+        description: definition for body parameters in judgeNextStatus
+        required:
+            - id
+        type: object
+        properties:
+            id:
+                type: string
+    judgeNextStatus_Response:
+        description: definition for responses in judgeNextStatus
+        type: object
+        properties:
+            statusList:
+                type: array
+                items:
+                    type: object
+                    additionalProperties:
+                        type: object
+    login_Body:
+        description: definition for body parameters in login
+        required:
+            - username
+            - password
+            - captcha
+        type: object
+        properties:
+            captcha:
+                type: string
+            password:
+                type: string
+            username:
+                type: string
+    login_Response:
+        description: definition for responses in login
+        required:
+            - username
+            - msg
+            - userId
+            - loginMsg
+            - profile
+        type: object
+        properties:
+            loginMsg:
+                type: string
+            msg:
+                type: string
+            profile:
+                type: string
+            userId:
+                type: string
+            username:
+                type: string
+    modifyOrderStatus_Body:
+        description: definition for body parameters in modifyOrderStatus
+        required:
+            - statusInfo
+        type: object
+        properties:
+            statusInfo:
+                type: object
+                additionalProperties:
+                    type: object
+    modifyOrderStatus_Response:
+        description: definition for responses in modifyOrderStatus
+        type: object
+        properties:
+            id:
+                type: string
+            status:
+                type: string
+    queryEquipmentDetail_Response:
+        description: definition for responses in queryEquipmentDetail
+        type: object
+        properties:
+            equipment:
+                type: object
+                additionalProperties:
+                    type: object
+    queryEquipments_Body:
+        description: definition for body parameters in queryEquipments
+        type: object
+        properties:
+            fullAddress:
+                description: 完整地址
+                type: string
+            limit:
+                description: 分页查询的条目数
+                type: number
+            name:
+                description: 设备名称
+                type: string
+            start:
+                description: 分页查询开始条目
+                type: number
+    queryEquipments_Equipment:
+        type: object
+    queryEquipments_Response:
+        description: definition for responses in queryEquipments
+        required:
+            - equipments
+            - total
+        type: object
+        properties:
+            equipments:
+                type: array
+                items:
+                    $ref: '#/definitions/queryEquipments_Equipment'
+            total:
+                description: 查询到的总条目数
+                type: string
+    queryWorkOrder_Body:
+        description: definition for body parameters in queryWorkOrder
+        type: object
+        properties:
+            createdBy:
+                type: string
+            isFME:
+                type: boolean
+            limit:
+                type: number
+            start:
+                type: number
+            status:
+                type: string
+            title:
+                type: string
+    queryWorkOrder_Response:
+        description: definition for responses in queryWorkOrder
+        type: object
+        properties:
+            total:
+                type: string
+            workOrderList:
+                type: array
+                items:
+                    type: object
+                    additionalProperties:
+                        type: object
+    queryWorker_Response:
+        description: definition for responses in queryWorker
+        type: object
+        properties:
+            userList:
+                type: array
+                items:
+                    type: object
+                    additionalProperties:
+                        type: object
+    registerPortalUser_Body:
+        description: definition for body parameters in registerPortalUser
+        required:
+            - username
+            - password
+            - role
+        type: object
+        properties:
+            password:
+                type: string
+            role:
+                type: string
+            username:
+                type: string
+    registerPortalUser_Response:
+        description: definition for responses in registerPortalUser
+        type: object
+        properties:
+            msg:
+                type: string

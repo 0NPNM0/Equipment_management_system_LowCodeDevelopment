@@ -1,0 +1,7 @@
+"{""ObjectName"":""ServicePermission"",""Version"":""1.0"",""TimeZone"":""GMT"",""Pattern"":""""}"
+id,name,label,category,parent,newPermission,description,createdBy,createdDate,lastModifiedBy,lastModifiedDate,systemModifiedDate,deletedDate,isDeleted,owner,installedPackage,custom,protectMode,visibility,belongTo
+string,string,string,string,string,bool,string,string,date,string,date,date,date,bool,string,string,bool,numeric,numeric,string
+0034000000rx38T4IQvw,CS,CS,,NULL,false,NULL,10gd00000150QfGpNugy,2023-07-27 04:39:39,10gd00000150QfGpNugy,2023-07-27 04:39:39,NULL,NULL,false,10gd00000150QfGpNugy,003L000000yU0W2s6Yy0,true,1,0,NULL
+0034000000rx38jX21s8,MS,MS,,NULL,false,NULL,10gd00000150QfGpNugy,2023-07-27 04:39:39,10gd00000150QfGpNugy,2023-07-27 04:39:39,NULL,NULL,false,10gd00000150QfGpNugy,003L000000yU0W2s6Yy0,true,1,0,NULL
+0034000000rx38umSPGS,DS,DS,,NULL,false,NULL,10gd00000150QfGpNugy,2023-07-27 04:39:39,10gd00000150QfGpNugy,2023-07-27 04:39:39,NULL,NULL,false,10gd00000150QfGpNugy,003L000000yU0W2s6Yy0,true,1,0,NULL
+00340000015Aqhdaedto,Login,Login,,,false,,10gd00000150QfGpNugy,2023-07-24 08:07:21,10gd00000150QfGpNugy,2023-07-24 08:07:21,NULL,NULL,false,10gd00000150QfGpNugy,NULL,true,1,0,000f0000015234yx8KY4
